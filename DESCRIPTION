@@ -1,0 +1,32 @@
+Package: umfe
+Type: Package
+Title: Unsupervised Meta-Feature Extractor
+Version: 0.0.1
+Date: 2020-02-10
+Authors@R: c(person("Luis", "P. F. Garcia", 
+  email="luis.garcia@unb.br", role=c("aut", "cre")))
+Description: Extracts meta-features from datasets to support the design of 
+  recommendation systems based on Meta-Learning. The meta-features, also called 
+  characterization measures, are able to characterize the complexity of datasets
+  and to provide estimates of algorithm performance. The package contains not 
+  only the standard characterization measures, but also more recent 
+  characterization measures. By making available a large set of meta-feature 
+  extraction functions, tasks like comprehensive data characterization, deep 
+  data exploration and large number of Meta-Learning based data analysis can be
+  performed. These concepts are described in the paper: Adriano Rivolli, Luis 
+  Garcia, Carlos Soares, Joaquin Vanschoren, and Andre de Carvalho. Towards 
+  Reproducible Empirical Research in Meta-Learning.
+URL: https://github.com/lpfgarcia/umfe
+Depends: R (>= 3.3),
+Imports: e1071, infotheo, MASS, rrcov, stats, utils
+Suggests: knitr
+License: MIT + file LICENSE
+LazyData: true
+BugReports: https://github.com/lpfgarcia/umfe/issues
+RoxygenNote: 7.0.2
+VignetteBuilder: knitr
+Encoding: UTF-8
+NeedsCompilation: no
+Packaged: 2020-02-10 02:52:56 UTC; lpfgarcia
+Author: Luis P. F. Garcia [aut, cre]
+Maintainer: Luis P. F. Garcia <luis.garcia@unb.br>
